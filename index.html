@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Catálogo digital Use Isis — moda feminina. Selecione produtos e faça seu pedido pelo WhatsApp." />
+  <title>Catálogo — Use Isis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header id="siteHeader" class="site-header">
+  <p class="header-pre">use</p>
+  <p class="header-nome">ISIS</p>
+  <div class="header-divider"></div>
+  <p class="header-subtitulo">moda feminina</p>
+  <p class="header-instrucao">Selecione os itens e envie seu pedido pelo WhatsApp <i class="fab fa-whatsapp" style="color:#25D366;"></i></p>
+</header>
+
+  <div class="banner-slider">
+    <div class="banner-track" id="bannerTrack"></div>
+    <button class="banner-nav prev" id="bannerPrev" aria-label="Slide anterior">&#8249;</button>
+    <button class="banner-nav next" id="bannerNext" aria-label="Próximo slide">&#8250;</button>
+    <div class="banner-dots" id="bannerDots"></div>
+  </div>
+
+  <div class="progresso-bar" id="progressoBar">
+    <div class="progresso-fill" id="progressoFill"></div>
+    <span class="progresso-texto" id="progressoTexto">0 itens no carrinho</span>
+  </div>
+
+  <div class="filtros-wrapper">
+    <nav class="filtros" id="filtros" aria-label="Filtrar por categoria">
+      <button class="filtro-btn ativo" data-cat="Todos">Todos</button>
+    </nav>
+    <div class="filtros-extra">
+      <select class="filtro-preco" id="filtroPreco" aria-label="Filtrar por preço">
+        <option value="0">Preço</option>
+        <option value="50">Até R$50</option>
+        <option value="100">Até R$100</option>
+        <option value="200">Até R$200</option>
+      </select>
+      <button class="filtro-fav-btn" id="filtroFav" aria-label="Ver favoritos">
+        <i class="fas fa-heart"></i>
+      </button>
+    </div>
+  </div>
+
+  <div class="busca-wrapper">
+    <i class="fas fa-search busca-icone"></i>
+    <input type="search" id="busca" class="busca-input" placeholder="Buscar produto..." aria-label="Buscar produto" />
+  </div>
+
+  <main class="grid" id="grid" aria-label="Produtos"></main>
+
+  <div class="carrinho-bar" id="carrinhoBar" aria-live="polite">
+    <div class="carrinho-info">
+      <span id="carrinhoCount">0 itens</span>
+      <span id="carrinhoTotal">R$ 0,00</span>
+    </div>
+    <button class="btn-pedido" id="btnPedido">Ver pedido →</button>
+  </div>
+
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTituloEl">
+    <div class="modal">
+      <button class="modal-fechar" id="modalFechar" aria-label="Fechar pedido">✕</button>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
+        <h2 class="modal-titulo" id="modalTituloEl" style="margin:0;">Seu Pedido</h2>
+        <button id="btnLimpar" class="btn-limpar">Limpar tudo</button>
+      </div>
+      <div style="margin-bottom:14px;">
+        <input id="nomeCliente" type="text" class="nome-input" placeholder="Seu nome (opcional)" />
+      </div>
+      <div id="modalItens"></div>
+      <div class="modal-total">
+        <span>Total</span>
+        <span id="modalTotalValor"></span>
+      </div>
+      <p class="modal-instrucao">Copie o resumo abaixo e cole no WhatsApp:</p>
+      <textarea class="modal-texto" id="modalTexto" readonly></textarea>
+      <div class="modal-acoes">
+        <button class="btn-copiar" id="btnCopiar">Copiar resumo</button>
+        <button class="btn-whats" id="btnWhats">Abrir WhatsApp</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-fechar" id="lightboxFechar" aria-label="Fechar imagem">✕</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="" />
+    <div class="lightbox-info">
+      <p class="lightbox-nome" id="lightboxNome"></p>
+      <p class="lightbox-preco" id="lightboxPreco"></p>
+    </div>
+    <button class="lightbox-whats" id="lightboxWhats"><i class="fab fa-whatsapp"></i> Pedir pelo WhatsApp</button>
+  </div>
+
+  <button class="dark-toggle" id="darkToggle" aria-label="Alternar modo escuro">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <script src="js/catalogo.js"></script>
+</body>
+</html>

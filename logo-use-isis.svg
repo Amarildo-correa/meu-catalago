@@ -1,0 +1,23 @@
+<svg width="100%" viewBox="0 0 680 220" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Logo Use Isis</title>
+  <style>
+    .logo-nome { font-family: 'Georgia', serif; font-size: 36px; font-weight: normal; fill: #2D2D2D; letter-spacing: 8px; }
+    .logo-sub  { font-family: 'Georgia', serif; font-size: 12px; font-weight: normal; fill: #D4A96A; letter-spacing: 5px; }
+  </style>
+  <g transform="translate(340, 100)">
+    <ellipse cx="0" cy="-22" rx="7" ry="14" fill="#C8637A" opacity="0.9" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-22" rx="7" ry="14" fill="#D4A96A" opacity="0.75" transform="rotate(45)"/>
+    <ellipse cx="0" cy="-22" rx="7" ry="14" fill="#C8637A" opacity="0.7" transform="rotate(90)"/>
+    <ellipse cx="0" cy="-22" rx="7" ry="14" fill="#D4A96A" opacity="0.65" transform="rotate(135)"/>
+    <ellipse cx="0" cy="-22" rx="7" ry="14" fill="#C8637A" opacity="0.6" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-22" rx="7" ry="14" fill="#D4A96A" opacity="0.65" transform="rotate(225)"/>
+    <ellipse cx="0" cy="-22" rx="7" ry="14" fill="#C8637A" opacity="0.7" transform="rotate(270)"/>
+    <ellipse cx="0" cy="-22" rx="7" ry="14" fill="#D4A96A" opacity="0.75" transform="rotate(315)"/>
+    <circle cx="0" cy="0" r="7" fill="#F5E6E0" stroke="#C8637A" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="3" fill="#D4A96A"/>
+  </g>
+  <line x1="100" y1="100" x2="305" y2="100" stroke="#E8D6CE" stroke-width="0.8"/>
+  <line x1="375" y1="100" x2="580" y2="100" stroke="#E8D6CE" stroke-width="0.8"/>
+  <text x="340" y="152" text-anchor="middle" class="logo-nome">USE ISIS</text>
+  <text x="340" y="175" text-anchor="middle" class="logo-sub">moda feminina</text>
+</svg>

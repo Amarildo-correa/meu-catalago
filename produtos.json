@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "nome": "Pijama puff",
+    "categoria": "Pijamas",
+    "preco": 55.00,
+    "descricao": "Blusinha cropped e short, tecido leve e fresco",
+    "disponivel": true,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_743683-MLB97944987442_112025-F-conjunto-pijama-feminino-adulto-ursinho-puff-blusa-e-short.webp"
+  },
+  {
+    "id": 2,
+    "nome": "Calcinha borboleta",
+    "categoria": "Calcinhas",
+    "preco": 40.00,
+    "descricao": "Calcinha borboleta de fio dental",
+    "disponivel": true,
+    "imagem": "https://dcdn-us.mitiendanube.com/stores/002/971/987/products/img_3510-e6e488c98ebc43f3fe17800773266096-480-0.webp"
+  },
+  {
+    "id": 3,
+    "nome": "Lingerie renda + cinta liga",
+    "categoria": "Calcinhas",
+    "preco": 49.90,
+    "descricao": "Lingerie de renda super leve, veste muito bem",
+    "disponivel": true,
+    "imagem": "https://www.lojastyleme.com.br/cdn/shop/products/Conjunto-Lingerie-de-Renda-Cinta-Liga-Luxury_2.jpg?v=1680560642&width=416"
+  },
+  {
+    "id": 4,
+    "nome": "Lingerie Ximena",
+    "categoria": "Calcinhas",
+    "preco": 99.90,
+    "descricao": "Tecido azul levinho, extremamente luxuosa",
+    "disponivel": true,
+    "imagem": "https://ponderada.com.br/cdn/shop/files/Conjunto-de-Lingerie-Sensual-Ximena-13.jpg?v=1688592599&width=1445"
+  },
+  {
+    "id": 5,
+    "nome": "Pijama peluciado",
+    "categoria": "Pijamas",
+    "preco": 200.00,
+    "descricao": "Pijama peluciado rosa quentinho",
+    "disponivel": true,
+    "imagem": "https://www.casaassuf.com.br/wp-content/uploads/2021/06/tecidos-mais-indicados-para-pijamas-de-inverno-casa-assuf-foto-reproducao-internet3.jpg"
+  },
+  {
+    "id": 6,
+    "nome": "Splash Victoria's Secret Coconut Passion",
+    "categoria": "Perfumaria",
+    "preco": 200.00,
+    "descricao": "Body splash Victoria's Secret Coconut Passion",
+    "disponivel": false,
+    "imagem": "https://http2.mlstatic.com/D_NQ_NP_737833-MLB112280606863_052026-O.webp"
+  }
+]
